@@ -63,7 +63,7 @@ class GUI:
         self.myHistory.column("#0", width=0,  stretch=NO)
         self.myHistory.column("Cloud cover",anchor=CENTER, width=80)
         self.myHistory.column("Sunshine",anchor=CENTER,width=80)
-        self.myHistory.column("Global radiation",anchor=CENTER,width=80)
+        self.myHistory.column("Global radiation",anchor=CENTER,width=100)
         self.myHistory.column("Pressure",anchor=CENTER,width=80)
         self.myHistory.column("Precipitation",anchor=CENTER,width=80)
 
